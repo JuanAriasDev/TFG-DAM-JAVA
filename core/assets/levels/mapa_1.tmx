@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="102">
+ <tileset firstgid="1" source="terreno.tsx"/>
+ <tileset firstgid="33" source="objects.tsx"/>
+ <tileset firstgid="71" source="fondo.tsx"/>
+ <layer id="4" name="fondo" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAb2BxwDbDwAsAABJ
+  </data>
+ </layer>
+ <layer id="1" name="terrain" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzFlNEJwDAIRK9kgHwEyTodJaNllIzWiBT606bWisLhT8gT8S4DI4l2hYZVdf6TgUZAR1DNOVoK5NNLfnJSlr7kb4564p9zXt566JZPOk+ofVOkL/fvVTX4/qP9x/zpgU7Q3039iV+E//WeTPNa96+Zm/P+b761mF+D87/AL99X4vw/AGuSMVU=
+  </data>
+ </layer>
+ <objectgroup id="6" name="monedas">
+  <object id="61" gid="64" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="62" gid="64" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="63" gid="64" x="128" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="64" gid="64" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="65" gid="64" x="64" y="288" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="66" gid="64" x="64" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="67" gid="64" x="256" y="160" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="68" gid="64" x="320" y="96" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="69" gid="64" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="70" gid="64" x="896" y="416" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="71" gid="64" x="928" y="416" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="72" gid="64" x="928" y="384" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="73" gid="64" x="896" y="384" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="74" gid="64" x="256" y="480" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="75" gid="64" x="736" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="76" gid="64" x="768" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="77" gid="64" x="800" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="78" gid="64" x="832" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="79" gid="64" x="320" y="320" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+  <object id="80" gid="64" x="320" y="288" width="32" height="32">
+   <properties>
+    <property name="moneda" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="puertas">
+  <object id="9" gid="42" x="64" y="480" width="32" height="32">
+   <properties>
+    <property name="door" value=""/>
+    <property name="start" value=""/>
+   </properties>
+  </object>
+  <object id="10" gid="42" x="928" y="96" width="32" height="32">
+   <properties>
+    <property name="door" value=""/>
+    <property name="end" value=""/>
+   </properties>
+  </object>
+  <object id="51" gid="2" x="352" y="160" width="32" height="32">
+   <properties>
+    <property name="door" value=""/>
+    <property name="secreta" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="trampas">
+  <object id="11" gid="48" x="320" y="320" width="32" height="128">
+   <properties>
+    <property name="laser" value=""/>
+   </properties>
+  </object>
+  <object id="12" gid="48" x="256" y="480" width="32" height="128">
+   <properties>
+    <property name="laser" value=""/>
+   </properties>
+  </object>
+  <object id="13" gid="34" x="886" y="248" width="32" height="32">
+   <properties>
+    <property name="barril" value=""/>
+    <property name="numero" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="14" gid="34" x="938" y="248" width="32" height="32">
+   <properties>
+    <property name="barril" value=""/>
+    <property name="numero" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="15" gid="56" x="758" y="368" width="32" height="26">
+   <properties>
+    <property name="pinchos" value=""/>
+   </properties>
+  </object>
+  <object id="16" gid="56" x="792" y="369" width="32" height="27">
+   <properties>
+    <property name="pinchos" value=""/>
+   </properties>
+  </object>
+  <object id="49" gid="48" x="128" y="208" width="32" height="128">
+   <properties>
+    <property name="laser" value=""/>
+   </properties>
+  </object>
+  <object id="50" gid="56" x="299" y="113" width="32" height="29">
+   <properties>
+    <property name="pinchos" value=""/>
+   </properties>
+  </object>
+  <object id="59" x="885" y="250" width="35" height="230">
+   <properties>
+    <property name="a_1" value=""/>
+    <property name="activa_barril" value=""/>
+   </properties>
+  </object>
+  <object id="60" x="936" y="250" width="35" height="230">
+   <properties>
+    <property name="a_2" value=""/>
+    <property name="activa_barril" value=""/>
+   </properties>
+  </object>
+  <object id="98" gid="34" x="125" y="57" width="32" height="32">
+   <properties>
+    <property name="barril" value=""/>
+    <property name="numero" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="99" gid="34" x="62" y="57" width="32" height="32">
+   <properties>
+    <property name="barril" value=""/>
+    <property name="numero" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="100" x="60" y="59" width="34" height="259">
+   <properties>
+    <property name="a_3" value=""/>
+    <property name="activa_barril" value=""/>
+   </properties>
+  </object>
+  <object id="101" x="125" y="58" width="35" height="261">
+   <properties>
+    <property name="a_4" value=""/>
+    <property name="activa_barril" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="enemies">
+  <object id="88" gid="69" x="800" y="96" width="15" height="15">
+   <properties>
+    <property name="enemy" value=""/>
+   </properties>
+  </object>
+  <object id="90" gid="69" x="672" y="352" width="15" height="15">
+   <properties>
+    <property name="enemy" value=""/>
+   </properties>
+  </object>
+  <object id="91" x="832" y="64" height="32">
+   <properties>
+    <property name="pared_a_i" value=""/>
+   </properties>
+  </object>
+  <object id="92" x="416" y="64" height="32">
+   <properties>
+    <property name="pared_a_d" value=""/>
+   </properties>
+  </object>
+  <object id="93" x="704" y="320" height="32">
+   <properties>
+    <property name="pared_a_i" value=""/>
+   </properties>
+  </object>
+  <object id="94" x="512" y="320" height="32">
+   <properties>
+    <property name="pared_a_d" value=""/>
+   </properties>
+  </object>
+  <object id="95" x="352" y="448" height="32">
+   <properties>
+    <property name="pared_a_d" value=""/>
+   </properties>
+  </object>
+  <object id="96" x="832" y="448" height="32">
+   <properties>
+    <property name="pared_a_i" value=""/>
+   </properties>
+  </object>
+  <object id="97" gid="69" x="800" y="480" width="15" height="15">
+   <properties>
+    <property name="enemy" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="suelo">
+  <object id="20" x="293" y="96" width="690">
+   <properties>
+    <property name="suelo" value=""/>
+   </properties>
+  </object>
+  <object id="21" x="352" y="160" width="672">
+   <properties>
+    <property name="suelo" value=""/>
+   </properties>
+  </object>
+  <object id="22" x="32" y="320" width="442">
+   <properties>
+    <property name="suelo" value=""/>
+   </properties>
+  </object>
+  <object id="23" x="480" y="352" width="378">
+   <properties>
+    <property name="suelo" value=""/>
+   </properties>
+  </object>
+  <object id="24" x="32" y="480" width="960">
+   <properties>
+    <property name="suelo" value=""/>
+   </properties>
+  </object>
+  <object id="27" x="32" y="32" width="787">
+   <properties>
+    <property name="techo" value=""/>
+   </properties>
+  </object>
+  <object id="28" x="32" y="384" width="448">
+   <properties>
+    <property name="techo" value=""/>
+   </properties>
+  </object>
+  <object id="29" x="485" y="416" width="373">
+   <properties>
+    <property name="techo" value=""/>
+   </properties>
+  </object>
+  <object id="30" x="231" y="224" width="761">
+   <properties>
+    <property name="techo" value=""/>
+   </properties>
+  </object>
+  <object id="31" x="32" y="32" height="288">
+   <properties>
+    <property name="pared_i" value=""/>
+   </properties>
+  </object>
+  <object id="32" x="352" y="96" height="64">
+   <properties>
+    <property name="pared_i" value=""/>
+   </properties>
+  </object>
+  <object id="33" x="992" y="224" height="256">
+   <properties>
+    <property name="pared_d" value=""/>
+   </properties>
+  </object>
+  <object id="34" x="32" y="384" height="96">
+   <properties>
+    <property name="pared_i" value=""/>
+   </properties>
+  </object>
+  <object id="35" x="1024" y="0" height="160">
+   <properties>
+    <property name="pared_d" value=""/>
+   </properties>
+  </object>
+  <object id="52" x="864" y="359" height="49">
+   <properties>
+    <property name="pared_i" value=""/>
+   </properties>
+  </object>
+  <object id="53" x="480" y="320" height="32">
+   <properties>
+    <property name="pared_i" value=""/>
+   </properties>
+  </object>
+  <object id="54" x="480" y="384" height="24">
+   <properties>
+    <property name="pared_d" value=""/>
+   </properties>
+  </object>
+  <object id="55" x="224" y="167" height="46">
+   <properties>
+    <property name="pared_d" value=""/>
+   </properties>
+  </object>
+  <object id="56" x="288" y="103" height="57">
+   <properties>
+    <property name="pared_d" value=""/>
+   </properties>
+  </object>
+  <object id="57" x="230" y="160" width="58">
+   <properties>
+    <property name="suelo" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
